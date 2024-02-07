@@ -1,0 +1,25 @@
+.aside_content {
+    background-color: #f2f4f7;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    padding: 15px;
+    gap: 20px;
+}
+
+.blog_form {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 15px;
+    gap: 15px;
+}
+
+.aside_content button {
+    height: 44px;
+    padding: 12px 14px;
+    border-radius: 8px;
+    border: 1px solid #1d2939;
+    background: #1d2939;
+    color: white;
+}

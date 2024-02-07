@@ -1,0 +1,29 @@
+footer {
+    text-align: center;
+}
+
+.footer_title {
+    gap: 15px;
+}
+
+.subscribe {
+    display: flex;
+    flex-direction: row;
+}
+
+footer .subscribe button {
+    border-radius: 0;
+}
+
+.subscribe input {
+    padding: 5px;
+}
+
+.copyright {
+    font-family: 'Inter';
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    padding: 40px 0px;
+}

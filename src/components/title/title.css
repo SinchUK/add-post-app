@@ -1,0 +1,34 @@
+.title {
+    display: flex;
+    padding: 40px 255px 40px 255px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Inter';
+}
+
+.title h1 {
+    text-align: center;
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 91.2px */
+    letter-spacing: -2.28px;
+    background: var(
+        --Hot-Graient,
+        linear-gradient(97deg, #c41740 4.8%, #ea9c28 100%)
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.title p {
+    color: var(--gray-600, #475467);
+    text-align: center;
+    font-family: Graphik;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 42px */
+}

@@ -1,0 +1,42 @@
+.blog {
+    width: 70%;
+    background-color: #f2f4f7;
+    font-family: 'Inter';
+    padding: 15px;
+}
+
+.blog_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.blog_item {
+    position: relative;
+    padding: 20px 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 15px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.blog_img img {
+    width: 190px;
+    height: 135px;
+    border-radius: 15px;
+    object-fit: cover;
+}
+
+.blog_items {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.blog_item svg {
+    position: absolute;
+    right: 3px;
+    top: 3px;
+}

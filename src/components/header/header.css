@@ -1,0 +1,55 @@
+.header {
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    box-shadow: 0px 4px 70px 0px rgba(30, 40, 52, 0.08);
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    align-items: center;
+    font-family: 'Inter';
+}
+
+.menu ul {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.menu ul li {
+    list-style: none;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #1d2939;
+}
+
+.hot_gradient {
+    background: var(
+        --Hot-Graient,
+        linear-gradient(97deg, #c41740 4.8%, #ea9c28 100%)
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.menu button,
+.subscribe button {
+    height: 44px;
+    padding: 12px 14px;
+    border-radius: 8px;
+    border: 1px solid #1d2939;
+    background: #1d2939;
+    color: white;
+}
+
+.menu button:hover {
+    cursor: pointer;
+}
